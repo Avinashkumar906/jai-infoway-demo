@@ -1,0 +1,21 @@
+<div class="d-flex flex-column">
+    <div class="container m-auto">
+        <div class="form-group">
+            <h1 class="text-center d-block mx-auto pb-40 w-100">Admin&nbsp;Login.</h1>
+        </div>
+        <div class="form-group">
+            <label for="fname">User Name:</label>
+            <input type="text" #name placeholder="enter username">
+        </div>
+        <div class="form-group">
+            <label for="lname">Password:</label>
+            <input type="password" #password placeholder="enter password">
+        </div>
+        <div class="form-group">
+            <div class="w-100">
+                <button class="btn-custom" type="button" (click)="loginUser(name.value,password.value)">Login</button>
+            </div>
+            <em class="d-block text-center w-100" style="font-size: 12px;">Demo username:admin password:12345678</em>
+        </div>
+    </div>
+</div>

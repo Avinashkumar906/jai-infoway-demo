@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    color: #1f1f1f;
+    font-size: 16px;
+}
+h1{
+    font-size: 24px!important;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.d-block{
+    display: block!important;
+}
+.d-flex{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.pb-40{
+    padding-bottom: 20px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.py-60{
+    padding: 60px 0;
+}
+.m-auto{
+    margin: auto!important;
+}
+.mx-auto{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.text-bold{
+    font-weight: bold;
+}
+.w-100{
+    width: 100%!important;
+}
+.container{
+    max-width: 620px;
+    padding: 80px;
+    border-radius: 5px;
+    border: 1px solid #1f1f1f;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+}
+a{
+    text-decoration: none!important;
+}
+/* form styling */
+.form-group *{
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-custom{
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: grey;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    cursor: pointer;
+    display: block;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
